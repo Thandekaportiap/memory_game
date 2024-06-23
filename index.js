@@ -8,7 +8,7 @@ const cardCount = lettersList.length;
 let cards = 0;
 let activeCards = null;
 let move = false;
-
+// create grid
 const createCard = (letters) =>{
   const el = document.createElement("div");
 
@@ -28,7 +28,7 @@ const createCard = (letters) =>{
 
       return;
     }
-    
+    // create a match for the same cards
     const match = activeCards.getAttribute("data-letters");
 
     if (match === letters) {
@@ -58,7 +58,7 @@ const createCard = (letters) =>{
   return el;
 }
 
-
+// shuffle the letters
 for (let i = 0; i < cardCount; i++) {
 	const randomIndex = Math.floor(Math.random() * lettersList.length);
 	const letters = lettersList[randomIndex];
