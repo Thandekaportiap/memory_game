@@ -67,4 +67,8 @@ for (let i = 0; i < cardCount; i++) {
   lettersList.splice(randomIndex, 1);
 	gameBoard.appendChild(card);
 
+};
+
+const start = () => {
+  
 }

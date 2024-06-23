@@ -4,6 +4,12 @@
     background-color: palevioletred;
 }
 
+.head {
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
 .game-board {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -49,13 +55,28 @@
   }
   
   .card-front {
-    background-color: black;
-    
+    background-color: black; 
   }
-  
   .card-back {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 24px;
+  }
+
+  .bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .start button {
+    width: 140px;
+    height: 50px;
+    border-radius: 16px;
+    background-color: olivedrab;
+    color: palevioletred;
+
   }
