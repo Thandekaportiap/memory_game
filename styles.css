@@ -14,6 +14,8 @@
     display: grid;
     grid-template-columns: repeat(4, auto);
     gap: 3px;
+    width: 500px;
+    margin-left: 35%;
   }
   
   .card {
@@ -68,7 +70,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 30px;
   }
 
@@ -80,3 +82,5 @@
     color: palevioletred;
 
   }
+
+ 

@@ -40,7 +40,7 @@ const createCard = (letters) =>{
       cards += 2;
 
       if (cards === cardCount){
-        alert("You win!");
+        alert("Congratulations you have won!, please refresh your page");
       }
       return;
     }
@@ -69,6 +69,4 @@ for (let i = 0; i < cardCount; i++) {
 
 };
 
-const start = () => {
-  
-}
+
